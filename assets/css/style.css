@@ -619,6 +619,7 @@ p.skills-para{
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .portfolio #portfolio-flters {
@@ -626,7 +627,7 @@ p.skills-para{
   margin: 0 auto 25px auto;
   list-style: none;
   text-align: center;
-  background: #fff;
+  /* background: #fff; */
   border-radius: 50px;
   padding: 2px 15px;
 }
@@ -657,7 +658,7 @@ p.skills-para{
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: rgba(69, 80, 91, 0.8);
+  /* background: rgba(69, 80, 91, 0.8); */
 }
 
 .portfolio .portfolio-wrap::before {
