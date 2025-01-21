@@ -2,8 +2,10 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <div>Projects</div>
+    <section className='max-container'>
+      <h1>Hello</h1>
+    </section>
   )
 }
 
-export default Projects
+export default Projects;

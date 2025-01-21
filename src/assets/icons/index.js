@@ -26,6 +26,19 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import python from './python.png'
+import flask from './flask.svg'
+import ruby from './ruby.png'
+import sql from './sql.png'
+import vscode from './vscode.svg'
+import docker from './docker.png'
+import bootstrap from './bootstrap.png'
+import gitlab from './gitlab.png'
+import aws from './aws.svg'
+import azure from './azure.svg'
+import swift from './swift.svg'
+import androidstudio from './androidstudio.svg'
+import jquery from './jquery.png'
 
 export {
     css,
@@ -55,5 +68,18 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    python,
+    flask,
+    ruby,
+    sql,
+    vscode,
+    docker,
+    bootstrap,
+    gitlab,
+    aws,
+    azure,
+    swift,
+    androidstudio,
+    jquery 
 }
