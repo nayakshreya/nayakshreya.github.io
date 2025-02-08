@@ -1,15 +1,17 @@
 import hero from './hero.jpg'
-import meta from './meta.png'
-import shopify from './shopify.png'
-import starbucks from './starbucks.png'
-import tesla from './tesla.png'
+import mit from './mit.png'
+import carlin from './carlin.png'
+import unm from './unm.png'
+import insuresoft from './insuresoft.png'
+import visint from './visint.png'
 import logo from './logo.svg'
 
 export {
     hero,
-    meta,
-    shopify,
-    starbucks,
-    tesla,
+    mit,
+    carlin,
+    unm,
+    insuresoft,
+    visint,
     logo
 }
