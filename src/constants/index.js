@@ -29,7 +29,15 @@ import {
     bootstrap,   
     jquery,
     swift,
-    androidstudio    
+    androidstudio,
+    dice,
+    profile,
+    sales,
+    restaurant,
+    game,
+    robot,
+    security,
+    circuit   
 } from "../assets/icons";
 
 export const skills = [
@@ -234,55 +242,55 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl: dice,
         theme: 'btn-back-red',
         name: 'Tenzies Game',
         description: 'Developed a React-based web game where players roll dice to match all dice to the same number. Players can freeze dice between rolls and continue until all dice align. Features include confetti animation upon winning and a restart option for continuous play.',
         link: 'https://github.com/nayakshreya/tenzies-game',
     },
     {
-        iconUrl: threads,
+        iconUrl: profile,
         theme: 'btn-back-green',
         name: 'Personal Portfolio Website',
         description: 'Created a 3D interactive portfolio website to showcase projects and skills, featuring smooth navigation, engaging animations, and unique interactive elements like a floating island and a fox that responds to typing, offering a fun and immersive user experience.',
         link: 'https://github.com/nayakshreya/nayakshreya.github.io',
     },
     {
-        iconUrl: car,
+        iconUrl: sales,
         theme: 'btn-back-blue',
         name: 'Sales App',
         description: 'Built a mobile app to list all the deals from a marketplace providing access to search, navigate, and get more information about the deals by directing it to bakesaleforgood.com .',
         link: 'https://github.com/nayakshreya/bakesale-app',
     },
     {
-        iconUrl: snapgram,
+        iconUrl: restaurant,
         theme: 'btn-back-pink',
         name: 'Restaurant Finder App',
         description: 'Implemented a mobile app to find restaurants based on the user price range by using the Axios library making search requests to display a variety of restaurants with details and implement error handling when the search request does not meet the user requirements.',
         link: 'https://github.com/nayakshreya/restaurant-app',
     },
     {
-        iconUrl: estate,
+        iconUrl: game,
         theme: 'btn-back-black',
         name: 'Find the Target Sum',
         description: 'Designed a gaming app where the user needs to find the target number from a set of randomly generated numbers summing up to the target number within 10 seconds to win.',
         link: 'https://github.com/nayakshreya/game-app',
     },
     {
-        iconUrl: summiz,
+        iconUrl: robot,
         theme: 'btn-back-yellow',
         name: 'Robot Control Software',
         description: 'Worked on simulated autonomous navigation control software as part of coursework to understand motion kinematics and dynamics, simulation testing, and sensor integration.',
     },
     {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
+        iconUrl: security,
+        theme: 'btn-back-red',
         name: 'Computer Security',
         description: 'Gained first-hand experience writing programs and performing security attacks on secret-key encryption, buffer-overflow vulnerability, return-to-libc attack, and SQL injection attack by considering security mechanisms.',
     },
     {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
+        iconUrl: circuit,
+        theme: 'btn-back-green',
         name: 'Circuit Breaker Controlling and Monitoring System',
         description: 'Modeled an internet of things-based monitoring and diagnosis system to keep a count of the number of voltage fluctuations and the   highest voltage level attained across the circuit breaker.',
     }

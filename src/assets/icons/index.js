@@ -39,6 +39,14 @@ import azure from './azure.svg'
 import swift from './swift.svg'
 import androidstudio from './androidstudio.svg'
 import jquery from './jquery.png'
+import dice from './dice.png'
+import profile from './profile.png'
+import sales from './sales.png'
+import restaurant from './restaurant.png'
+import game from './game.png'
+import robot from './robot.png'
+import security from './security.png'
+import circuit from './circuit.png' 
 
 export {
     css,
@@ -81,5 +89,13 @@ export {
     azure,
     swift,
     androidstudio,
-    jquery 
+    jquery,
+    dice,
+    profile,
+    sales,
+    restaurant,
+    game,
+    robot,
+    security,
+    circuit  
 }
