@@ -51,4 +51,4 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
         with: 
-          deploy_key: ${{ secrets.SCRETE_NAMES }}
+          deploy_key: ${{ secrets.SECERT_KEYS }}
