@@ -2,7 +2,8 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ['main']
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
@@ -49,6 +50,6 @@ jobs:
           path: './dist'
 
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
-        with: 
-          deploy_key: ${{ secrets.SECERT_KEYS }}
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
