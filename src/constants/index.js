@@ -40,7 +40,10 @@ import {
     circuit,
     csharp,
     microchip,
-    chatgpt
+    chatgpt,
+    aimenu,
+    aicourseassistant,
+    aiwaiter
 } from "../assets/icons";
 
 export const skills = [
@@ -260,19 +263,19 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: dice,
+        iconUrl: aiwaiter,
         theme: 'btn-back-yellow',
         name: 'AI Waiter Chatbot',
         description: 'Developed an AI waiter chatbot in Flowise using OpenAI LLMs, OpenAI embeddings, Pinecone vector search with a restaurant menu knowledge base built from Excel and Word documents to answer questions about menu items, prices, ingredients, and availability.',
         link: 'https://cloud.flowiseai.com/chatbot/48c342f9-e874-43a1-8012-7aa0bd7a6423',
     },{
-        iconUrl: dice,
+        iconUrl: aicourseassistant,
         theme: 'btn-back-green',
         name: 'RAG-Based Course Assistant Chatbot',
         description: 'Built a RAG-based course assistant chatbot in Flowise using OpenAI LLMs, vector document storage, retriever tools, buffer memory, and a tool-calling agent workflow. The chatbot retrieves information from uploaded course materials and provides grounded, context-aware answers to user questions.',
         link: 'https://cloud.flowiseai.com/chatbot/c78d0381-4ada-45f5-b41a-4d4fb21faeaa',
     },{
-        iconUrl: dice,
+        iconUrl: aimenu,
         theme: 'btn-back-black',
         name: 'Multimodal Restaurant Menu Extraction Pipeline',
         description: 'Created a multimodal restaurant menu extraction pipeline in Google Colab using the OpenAI Responses API, base64-encoded image inputs, structured parsing, Pydantic schemas, pandas, and Excel export. The pipeline converts menu images into structured data containing category, subcategory, item name, description, and price.',
