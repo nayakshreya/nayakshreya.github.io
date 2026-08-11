@@ -47,6 +47,9 @@ import game from './game.png'
 import robot from './robot.png'
 import security from './security.png'
 import circuit from './circuit.png' 
+import csharp from './csharp.png'
+import microchip from './microchip.png'
+import chatgpt from './chatgpt.png'
 
 export {
     css,
@@ -97,5 +100,8 @@ export {
     game,
     robot,
     security,
-    circuit  
+    circuit,
+    csharp,
+    microchip,
+    chatgpt
 }
