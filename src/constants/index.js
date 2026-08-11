@@ -37,14 +37,37 @@ import {
     game,
     robot,
     security,
-    circuit   
+    circuit,
+    c-sharp,
+    chat-gpt,
+    microchip
 } from "../assets/icons";
 
 export const skills = [
     {
-        imageUrl: css,
-        name: "CSS",
+        imageUrl: microchip,
+        name: "AI",
+        type: "AI",
+    },
+    {
+        imageUrl: chat-gpt,
+        name: "Chat Gpt",
+        type: "AI",
+    },
+     {
+        imageUrl: javascript,
+        name: "JavaScript",
         type: "Frontend",
+    },
+    {
+        imageUrl: python,
+        name: "Python",
+        type: "Programming Language",
+    },
+    {
+        imageUrl: c-sharp,
+        name: "C Sharp",
+        type: "Backend",
     },
     {
         imageUrl: git,
@@ -62,11 +85,6 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: javascript,
-        name: "JavaScript",
-        type: "Frontend",
-    },
-    {
         imageUrl: mui,
         name: "Material-UI",
         type: "Frontend",
@@ -74,6 +92,11 @@ export const skills = [
     {
         imageUrl: bootstrap,
         name: "Bootstrap",
+        type: "Frontend",
+    }, 
+    {
+        imageUrl: css,
+        name: "CSS",
         type: "Frontend",
     },
     {
@@ -85,11 +108,6 @@ export const skills = [
         imageUrl: nodejs,
         name: "Node.js",
         type: "Backend",
-    },
-    {
-        imageUrl: python,
-        name: "Python",
-        type: "Programming Language",
     },
     {
         imageUrl: flask,
