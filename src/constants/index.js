@@ -39,8 +39,8 @@ import {
     security,
     circuit,
     csharp,
-    chatgpt,
-    microchip
+    microchip,
+    chatgpt
 } from "../assets/icons";
 
 export const skills = [
