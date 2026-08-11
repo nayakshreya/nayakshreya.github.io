@@ -38,8 +38,8 @@ import {
     robot,
     security,
     circuit,
-    c-sharp,
-    chat-gpt,
+    csharp,
+    chatgpt,
     microchip
 } from "../assets/icons";
 
@@ -50,7 +50,7 @@ export const skills = [
         type: "AI",
     },
     {
-        imageUrl: chat-gpt,
+        imageUrl: chatgpt,
         name: "Chat Gpt",
         type: "AI",
     },
@@ -65,7 +65,7 @@ export const skills = [
         type: "Programming Language",
     },
     {
-        imageUrl: c-sharp,
+        imageUrl: csharp,
         name: "C Sharp",
         type: "Backend",
     },
