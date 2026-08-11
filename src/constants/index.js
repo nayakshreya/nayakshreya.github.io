@@ -255,7 +255,7 @@ export const projects = [
         link: 'https://cloud.flowiseai.com/chatbot/c78d0381-4ada-45f5-b41a-4d4fb21faeaa',
     },{
         iconUrl: dice,
-        theme: 'btn-back-grey',
+        theme: 'btn-back-black',
         name: 'Multimodal Restaurant Menu Extraction Pipeline',
         description: 'Created a multimodal restaurant menu extraction pipeline in Google Colab using the OpenAI Responses API, base64-encoded image inputs, structured parsing, Pydantic schemas, pandas, and Excel export. The pipeline converts menu images into structured data containing category, subcategory, item name, description, and price.',
         link: '',
