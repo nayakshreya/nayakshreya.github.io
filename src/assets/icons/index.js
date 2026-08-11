@@ -50,6 +50,9 @@ import circuit from './circuit.png'
 import csharp from './csharp.png'
 import microchip from './microchip.png'
 import chatgpt from './chatgpt.png'
+import aimenu from './aimenu.png'
+import aicourseassistant from './aicourseassistant.png'
+import aiwaiter from './aiwaiter.png'
 
 export {
     css,
@@ -103,5 +106,8 @@ export {
     circuit,
     csharp,
     microchip,
-    chatgpt
+    chatgpt,
+    aimenu,
+    aicourseassistant,
+    aiwaiter
 }
